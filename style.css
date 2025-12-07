@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #080b16;
+  color: #e5e7eb;
+}
+
+header {
+  background: #0f1324;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #1f243b;
+}
+
+.navbar {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #facc15;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: #facc15;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(to bottom right, #4338ca, #0f1324);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background: #facc15;
+  color: #111;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1.2rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section h2 {
+  margin-bottom: 0.8rem;
+  border-left: 4px solid #facc15;
+  padding-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skills-list li {
+  background: #111827;
+  border-radius: 20px;
+  padding: 0.4rem 0.9rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  background: #111827;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #1f243b;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem 0;
+  background: #0f1324;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+}

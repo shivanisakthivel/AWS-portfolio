@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Cloud Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hi, I'm Shivani</h1>
+    <p>Aspiring Cloud & AWS Professional</p>
+    <button onclick="scrollToSection('projects')">View My Projects</button>
+  </section>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm an aspiring cloud professional with a growing interest in AWS,
+        serverless technology, and DevOps practices. I enjoy building
+        hands-on projects and continuously learning new skills.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>AWS (S3, IAM, CloudFront)</li>
+        <li>Python</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>Linux & CLI</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Cloud 101 Lab</h3>
+          <p>Explored EC2, S3, VPC, and IAM fundamentals using AWS Educate Labs.</p>
+        </div>
+        <div class="project-card">
+          <h3>Serverless App (Concept)</h3>
+          <p>Designed a notes app using Lambda, API Gateway & DynamoDB.</p>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio on AWS</h3>
+          <p>This portfolio is deployed using S3 static hosting and CloudFront.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>Bachelor’s in ______</li>
+        <li>AWS Educate Courses: Cloud 101, Security, Serverless, Cloud Ops, etc.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: yourname@example.com</p>
+      <p>LinkedIn: linkedin.com/in/your-profile</p>
+      <p>GitHub: github.com/your-username</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Shivani · Built with HTML, CSS, JS · Hosted on AWS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
