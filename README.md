@@ -9,7 +9,7 @@ It will be deployed on *AWS S3* and later optimized using *CloudFront CDN* for g
 - Sections: About, Skills, Projects, Education, Contact
 
 ## 🚀 Deployment
-Deployment is in progress. Once AWS account activation completes, the live URL will be added here.
+Deployment is in progress.the live URL will be added here.
 
 ## 📌 Purpose
 To showcase my cloud learning journey, hands-on projects, and technical skills.
